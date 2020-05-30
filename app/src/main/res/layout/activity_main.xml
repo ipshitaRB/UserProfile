@@ -10,12 +10,12 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/background_light">
+        android:background="?android:attr/colorBackground">
 
         <ImageView
             android:id="@+id/headerImageView"
             android:layout_width="0dp"
-            android:layout_height="300dp"
+            android:layout_height="240dp"
             android:contentDescription="@string/header_image"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
@@ -26,23 +26,21 @@
         <ImageView
             android:id="@+id/subheader"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="240dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="60dp"
             android:layout_marginEnd="16dp"
             android:contentDescription="@string/sub_header"
-            app:layout_constraintBottom_toBottomOf="@+id/description"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/dark_image_bg"
-            />
+            app:layout_constraintTop_toTopOf="@+id/profilePic"
+            app:srcCompat="@drawable/dark_image_bg" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profilePic"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="100dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="60dp"
             android:src="@drawable/lilo_pelekai"
             app:civ_border_color="#FFFFFF"
             app:civ_border_width="2dp"
@@ -54,7 +52,7 @@
             android:id="@+id/fullName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
             android:text="@string/fullname"
             android:textColor="@color/colorBlack"
             android:textSize="24sp"
@@ -67,7 +65,6 @@
             android:id="@+id/profession"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:text="@string/profession"
             android:textColor="@android:color/secondary_text_light"
             android:textSize="18sp"
@@ -79,11 +76,34 @@
             android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
             android:text="@string/description"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/profession" />
+
+        <ImageView
+            android:id="@+id/playstore"
+            android:layout_width="@dimen/logo_dim"
+            android:layout_height="@dimen/logo_dim"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/playstoreTextView"
+            app:layout_constraintEnd_toEndOf="@+id/playstoreTextView"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="@+id/playstoreTextView"
+            app:srcCompat="@drawable/ic_play_store"
+            android:contentDescription="@string/play_store" />
+
+        <TextView
+            android:id="@+id/playstoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/play_store"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/subheader" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

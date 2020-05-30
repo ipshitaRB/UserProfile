@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_gap">160dp</dimen>
+    <dimen name="padding_scrollview">8dp</dimen>
+    <dimen name="elevation">8dp</dimen>
+    <dimen name="top_elevation">10dp</dimen>
+    <dimen name="logo_dim">24dp</dimen>
+</resources>
