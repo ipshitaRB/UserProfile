@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">User Profile</string>
+    <string name="background">Background</string>
+    <string name="header_image">Header Image</string>
+    <string name="fullname">Ipshita Roy Burman</string>
+    <string name="profession">Mobile Developer</string>
+    <string name="description">I make Android apps with Kotlin.\nLove beaches but slightly concerned about sharks.</string>
+    <string name="sub_header">sub header</string>
 </resources>
