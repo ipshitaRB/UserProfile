@@ -2,9 +2,12 @@
     <string name="app_name">User Profile</string>
     <string name="background">Background</string>
     <string name="header_image">Header Image</string>
-    <string name="fullname">Ipshita RB</string>
+    <string name="fullname">Ipshita Roy Burman</string>
     <string name="profession">Mobile Developer</string>
-    <string name="description">Builds Native Android apps.\nLoves beaches but a little afraid of sharks.</string>
+    <string name="description">Builds Native Android apps.\nLoves the ocean but a little afraid of sharks.</string>
     <string name="sub_header">sub header</string>
     <string name="play_store">Play Store</string>
+    <string name="github">GitHub</string>
+    <string name="bitbucket">Bitbucket</string>
+    <string name="facebook">Facebook</string>
 </resources>

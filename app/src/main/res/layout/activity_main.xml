@@ -79,6 +79,7 @@
             android:layout_marginTop="16dp"
             android:gravity="center"
             android:text="@string/description"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/profession" />
@@ -87,23 +88,86 @@
             android:id="@+id/playstore"
             android:layout_width="@dimen/logo_dim"
             android:layout_height="@dimen/logo_dim"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/playstoreTextView"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/play_store"
             app:layout_constraintEnd_toEndOf="@+id/playstoreTextView"
-            app:layout_constraintHorizontal_bias="0.6"
             app:layout_constraintStart_toStartOf="@+id/playstoreTextView"
-            app:srcCompat="@drawable/ic_play_store"
-            android:contentDescription="@string/play_store" />
+            app:layout_constraintTop_toBottomOf="@+id/subheader"
+            app:srcCompat="@drawable/ic_play_store" />
 
         <TextView
             android:id="@+id/playstoreTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="8dp"
             android:text="@string/play_store"
+            app:layout_constraintEnd_toStartOf="@+id/githubTextView"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/subheader" />
+            app:layout_constraintTop_toBottomOf="@+id/playstore" />
+
+        <TextView
+            android:id="@+id/githubTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/github"
+            app:layout_constraintEnd_toStartOf="@+id/bitbucketTextView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/playstoreTextView"
+            app:layout_constraintTop_toBottomOf="@+id/githubLogo" />
+
+        <TextView
+            android:id="@+id/bitbucketTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/bitbucket"
+            app:layout_constraintEnd_toStartOf="@+id/facebookTextView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/githubTextView"
+            app:layout_constraintTop_toBottomOf="@+id/bitbucketLogo" />
+
+        <TextView
+            android:id="@+id/facebookTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/facebook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/bitbucketTextView"
+            app:layout_constraintTop_toBottomOf="@+id/facebookLogo" />
+
+        <ImageView
+            android:id="@+id/githubLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/githubTextView"
+            app:layout_constraintStart_toStartOf="@+id/githubTextView"
+            app:layout_constraintTop_toTopOf="@+id/playstore"
+            app:srcCompat="@drawable/ic_github"
+            android:contentDescription="@string/github" />
+
+        <ImageView
+            android:id="@+id/bitbucketLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/bitbucketTextView"
+            app:layout_constraintStart_toStartOf="@+id/bitbucketTextView"
+            app:layout_constraintTop_toTopOf="@+id/githubLogo"
+            app:srcCompat="@drawable/ic_bitbucket_logo"
+            android:contentDescription="@string/bitbucket" />
+
+        <ImageView
+            android:id="@+id/facebookLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/facebookTextView"
+            app:layout_constraintStart_toStartOf="@+id/facebookTextView"
+            app:layout_constraintTop_toTopOf="@+id/bitbucketLogo"
+            app:srcCompat="@drawable/ic_facebook"
+            android:contentDescription="@string/bitbucket" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
