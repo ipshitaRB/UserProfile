@@ -4,10 +4,22 @@
     <string name="header_image">Header Image</string>
     <string name="fullname">Ipshita Roy Burman</string>
     <string name="profession">Mobile Developer</string>
-    <string name="description">Builds Native Android apps.\nLoves the ocean but a little afraid of sharks.</string>
+    <string name="description">Builds Native Android apps.\nEnjoys board games and anime.</string>
     <string name="sub_header">sub header</string>
     <string name="play_store">Play Store</string>
     <string name="github">GitHub</string>
     <string name="bitbucket">Bitbucket</string>
     <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="google_plus">Google Plus</string>
+    <string name="youtube">Youtube</string>
+    <string name="email">Email</string>
+    <string name="android">Android</string>
+    <string name="dribble">Dribble</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="skype">Skype</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="website">Website</string>
 </resources>

@@ -5,4 +5,8 @@
     <dimen name="elevation">8dp</dimen>
     <dimen name="top_elevation">10dp</dimen>
     <dimen name="logo_dim">24dp</dimen>
+    <dimen name="top_row_margin">32dp</dimen>
+    <dimen name="caption_margin">8dp</dimen>
+    <dimen name="margin_between_rows">16dp</dimen>
+    <dimen name="bottom_row_margin">32dp</dimen>
 </resources>
