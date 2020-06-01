@@ -18,9 +18,9 @@ https://github.com/ipshitaRB/UserProfile.git
  
  ## Credits
 
-<div>Icons made by 
+Icons made by 
   * <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
   * <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
   * <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a>
   
-  from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
